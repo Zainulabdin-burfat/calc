@@ -1,0 +1,26 @@
+{
+    "name": "zain/calc",
+    "description": "Simple Calculator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zain\\Calc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zain ul abdin",
+            "email": "zainburfat112@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../packages/calc"
+        }
+    ],
+}
