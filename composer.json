@@ -1,11 +1,11 @@
 {
-    "name": "zain/calc",
+    "name": "zainburfat/calc",
     "description": "Simple Calculator",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Zain\\Calc\\": "src/"
+            "Zainburfat\\Calc\\": "src/"
         }
     },
     "authors": [
@@ -15,12 +15,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
-,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../packages/calc"
+    "require": {
+        "php":">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zainburfat\\Calc\\Providers\\CalcServiceProvider"
+            ]
         }
-    ],
+    }
 }
